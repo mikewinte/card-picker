@@ -1,0 +1,6 @@
+import random
+
+Cards=["King of Spades", "King of Hearts", "King of Diamonds", "Ace of Spades", "Ace of Hearts"]
+
+for i in range(2):
+    print(random.choice(Cards))
